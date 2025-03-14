@@ -1,0 +1,31 @@
+USER STORIES
+1-	Autenticación de usuarios:
+*	Como usuario quiero poder registrarme para poder reservar un turno y así este identificado
+*	Criterios de aceptación:
+  o	El usuario se podrá registrar brindando una contraseña y su email
+  o	El usuario no podrá reservar un turno sin estar autenticado.
+
+2-	Reserva de turno:
+*	Como usuario registrado quiero poder acceder a los horarios disponibles de atención (de 8am a 16pm) para tener mi cita odontóloga.
+*	Criterios de aceptación:
+  o	El usuario solo podrá elegir el horario establecido (8am a 16pm) de lunes a viernes.
+  o	Si el usuario intenta agendar un horario fuera del establecido, se mostrará un mensaje indicando: “Has seleccionado un horario fuera del establecido”
+  o	El usuario no podrá elegir los días Sábados y Domingos.
+3-	Visualización de turnos
+*	Como usuario registrado quiero ver la lista de mis turnos para estar atento a mi turno
+*	Criterios de aceptación:
+  o	El usuario verá el historial de la lista de sus turnos que ha creados.
+  o	La lista de turnos mostrará la hora, fecha y la opción para cancelarlo.
+  o	Se mostrará un mensaje de confirmación en el momento que cree o cancele un turno.
+4-	Cancelación de turnos:
+*	Como usuario registrado quiero cancelar mi turno mínimo un día antes de la fecha reservada
+*	Criterios de aceptación:
+  o	El usuario podrá cancelar su turno un día antes de su turno
+  o	El usuario no podrá cancelar su turno el mismo día de la fecha establecida.
+  o	El turno cancelado le aparecerá en la lista de turnos como “Cancelado”.
+5-	Restricción de citas para el fin de semana:
+*	Como usuario quiero que no estén disponibles los fines de semana para agendar turnos para que sólo pueda reservar los días hábiles. 
+*	Criterios de aceptación:
+  o	Los sábados y Domingos deberán estar bloqueados para evitar elegir esos turnos.
+
+
