@@ -1,6 +1,7 @@
 import 'dotenv/config'
 
-export const PORT = process.env.PORT ? parseInt(process.env.PORT, 10): 3000
+// export const PORT = process.env.PORT ? parseInt(process.env.PORT, 10): 3000
+export const PORT = process.env.PORT || 3000
 
 export const DB_TYPE: string = process.env.DB_TYPE? process.env.DB_TYPE: "postgres"
 export const DB_HOST: string | undefined = process.env.DB_HOST
