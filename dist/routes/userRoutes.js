@@ -8,4 +8,3 @@ userRouter.get('/:id', (req, res) => (0, userControllers_1.getUserByIdController
 userRouter.post("/register", (req, res) => (0, userControllers_1.registerUserController)(req, res));
 userRouter.post("/login", (req, res) => (0, userControllers_1.loginUserController)(req, res));
 exports.default = userRouter;
-F
