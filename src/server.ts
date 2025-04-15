@@ -16,6 +16,7 @@ const server = express();
 server.use(express.json());
 server.use(morgan("dev"));
 server.use(cors(corsOptions));
+server.options("*", cors(corsOptions));
 server.use(router)
 
 export default server;
