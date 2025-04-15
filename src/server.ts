@@ -3,7 +3,9 @@ import morgan from "morgan";
 import cors from "cors"
 import router from "./routes";
 const corsOptions = {
-    origin: 'https://vite-project-two-ecru.vercel.app', // URL de tu frontend en Vercel
+    origin: 'https://vite-project-two-ecru.vercel.app',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type'], // URL de tu frontend en Vercel
   };
 
   
